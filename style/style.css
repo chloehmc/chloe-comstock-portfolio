@@ -6,6 +6,10 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
+.navbar-logo{
+width: 80px;
+}
+
 .header {
   background-color: var(--secondary-color);
   text-align: center;
