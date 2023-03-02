@@ -73,3 +73,26 @@ p {
     text-align: center;
   }
 }
+
+
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.btn-projects {
+  background-color: rgb(123, 181, 183);
+  color: #f4f7f7;
+  border-radius: 5px;
+  padding: 18px 30px;
+  margin: 30px auto 80px;
+  line-height: 30px;
+}
+.profile-img {
+  width: 400px;
+  margin-top: 100px;
+  margin-left: 30px;
+}
