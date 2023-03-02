@@ -8,6 +8,8 @@
 .header {
   background-color: var(--secondary-color);
   text-align: center;
+  margin:0px;
+  
 }
 
 body {
@@ -18,7 +20,7 @@ body {
 h1 {
   font-family: var(--header-font);
   font-weight: bold;
-  font-size: 90px;
+  font-size: 70px;
   padding: 100px 20px 10px;
 }
 
@@ -28,15 +30,31 @@ h3 {
   line-height: 3;
 }
 
+h2 {
+  font-family: var(--header-font);
+  font-size: 56px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+}
 .btn-branding {
   background-color: rgb(123, 181, 183);
   color: #f4f7f7;
   border-radius: 5px;
   padding: 18px 30px;
   margin: 30px auto 80px;
+  line-height: 30px;
 }
 
-p {
-  font-family: "Poppins", sans-serif;
-  font-weight: normal;
+.btn-branding-outline {
+  background-color: var(--background-color);
+  color: var(--primary-brand-color);
+  border: 1px solid var(--primary-brand-color);
+  border-radius: 5px;
+  padding: 18px 30px;
+  margin: 30px auto 80px;
+  line-height: 30px;
 }
