@@ -8,8 +8,7 @@
 .header {
   background-color: var(--secondary-color);
   text-align: center;
-  margin:0px;
-  
+  margin: 0px;
 }
 
 body {
@@ -20,7 +19,7 @@ body {
 h1 {
   font-family: var(--header-font);
   font-weight: bold;
-  font-size: 70px;
+  font-size: 90px;
   padding: 100px 20px 10px;
 }
 
@@ -33,6 +32,7 @@ h3 {
 h2 {
   font-family: var(--header-font);
   font-size: 56px;
+  text-align: center;
 }
 
 p {
@@ -57,4 +57,19 @@ p {
   padding: 18px 30px;
   margin: 30px auto 80px;
   line-height: 30px;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
 }
