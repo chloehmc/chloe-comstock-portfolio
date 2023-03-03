@@ -36,7 +36,7 @@ h3 {
 
 h2 {
   font-family: var(--header-font);
-  font-size: 56px;
+  font-size: 50px;
   text-align: center;
 }
 
@@ -63,7 +63,6 @@ p {
   padding: 18px 30px;
   margin: 30px auto 80px;
   line-height: 30px;
-  display: block;
   box-shadow: var(--box-shadow);
 }
 
