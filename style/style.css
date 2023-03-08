@@ -117,7 +117,6 @@ i:hover {
 
 @media (max-width: 800px) {
   body {
-    max-height: fit-content;
     overflow-x: hidden;
   }
   h1 {
@@ -148,4 +147,7 @@ i:hover {
   .content container {
     overflow-x: hidden;
   }
+
+
+  
 }
