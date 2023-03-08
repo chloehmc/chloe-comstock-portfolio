@@ -22,6 +22,7 @@
 body {
   background-color: var(--background-color);
   font-family: "Poppins", sans-serif;
+  overflow: hidden;
 }
 
 h1 {
@@ -115,9 +116,11 @@ i:hover {
   text-decoration: none;
 }
 
-
-
-@media (max-width: 900px) {
+@media (max-width: 800px) {
+  body {
+    max-height: fit-content;
+    overflow-x: hidden;
+  }
   h1 {
     font-size: 60px;
     padding-top: 20px;
@@ -134,11 +137,16 @@ i:hover {
   .content {
     text-align: center;
   }
+  .profile-img {
+    margin: 0px -20px 0px 2px;
+  }
 
   .work-Inquiry {
     text-align: center;
     padding: 40px 30px 10px 40px;
-    margin: 50px;
+    margin: 20px 20px;
   }
-  
+  .content container {
+    overflow-x: hidden;
+  }
 }
